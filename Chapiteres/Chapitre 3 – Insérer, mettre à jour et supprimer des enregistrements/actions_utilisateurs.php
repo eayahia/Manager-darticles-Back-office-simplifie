@@ -28,7 +28,7 @@ echo "<br>";
         'email' => 'oussama@gmail.com',
         'id_user' => 2
     ]);
-    echo "user mis à jour";
+    echo "user mise à jour";
 
 
 
