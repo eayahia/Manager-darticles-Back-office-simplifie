@@ -17,6 +17,3 @@ example : if the user write a wrong name of database or user or password
 if the server is not working the error message 
 
 if the server is working  the message of connexion 
-
-
-
