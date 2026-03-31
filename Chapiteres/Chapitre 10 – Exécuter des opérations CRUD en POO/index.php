@@ -17,9 +17,9 @@ $db = $database->getConnection();
 
 $user = new user($db);
 
-$user->user_name = "said";
+$user->user_name = "saida";
 
-$user->email = "said@gmail.com";
+$user->email = "saida@gmail.com";
 
 $user->create();
 

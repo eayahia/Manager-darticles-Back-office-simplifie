@@ -12,7 +12,7 @@ class Database {
 
 
     public function getConnection() {
-        $this->conn = null;
+                                                                                                             $this->conn = null;
 
         try {
             $this->conn = new PDO(

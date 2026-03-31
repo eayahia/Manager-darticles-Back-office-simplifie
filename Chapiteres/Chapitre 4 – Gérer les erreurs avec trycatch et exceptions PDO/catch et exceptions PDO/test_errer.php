@@ -13,8 +13,6 @@ try {
     echo "Une erreur est survenue. Contactez l'administrateur.";
 }
 
-
-
 try {
     $conn->query("SELECT * from user");
 
