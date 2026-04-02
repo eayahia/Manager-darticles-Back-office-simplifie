@@ -12,8 +12,7 @@ class Database {
 
 
     public function getConnection() {
-                                                                                                             $this->conn = null;
-
+           $this->conn = null;
         try {
             $this->conn = new PDO(
                 "mysql:host=" . $this->host . ";dbname=" . $this->db_name . ";charset=utf8", $this->username, $this->password
@@ -28,4 +27,3 @@ class Database {
     }
 
 }
-
